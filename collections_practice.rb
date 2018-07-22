@@ -34,6 +34,6 @@ end
 
 def add_s(arr)
   arr.map.with_index do |w, i| 
-    w[i] != 2? w << "s" : item 
+    w[i] != 2? w << "s" : w
   end 
 end 
