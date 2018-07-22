@@ -33,5 +33,5 @@ def sum_array(nums)
 end 
 
 def add_s(arr)
-  arr.map! {|w| if w != arr[2] w << "s"}
+  arr.map! {|w| if w != arr[2]; w << "s"}
 end 
