@@ -38,4 +38,6 @@ def add_s(arr)
       nil
     else 
       w << "s"
+    end 
+  end 
 end 
