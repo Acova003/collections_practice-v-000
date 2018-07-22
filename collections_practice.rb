@@ -33,11 +33,6 @@ def sum_array(nums)
 end 
 
 def add_s(arr)
-  arr.map! do |w| 
-    if w != w[2]
-      w << "s"
-    else 
-      nil 
-    end
-  end 
+  arr.map! {|w| w << "s"}
+  arr = arr[2].pop
 end 
