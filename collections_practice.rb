@@ -37,7 +37,7 @@ def add_s(arr)
     if w = arr[2]
       nil
     else 
-      w << "s"
+      w.push("s")
     end 
   end 
 end 
