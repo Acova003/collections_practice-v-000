@@ -34,7 +34,7 @@ end
 
 def add_s(arr)
   ignore = arr[2]
-  arr.each do |w| if !ignore w << "s"
+  arr.each do |w| if !ignore.include? w << "s"}
     end 
   end 
 end 
