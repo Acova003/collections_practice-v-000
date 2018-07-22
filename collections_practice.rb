@@ -27,3 +27,7 @@ end
 def find_a(arr)
   arr.select {|w| w[0] == "a"}
 end 
+
+def sum_array(nums)
+  
+end 
