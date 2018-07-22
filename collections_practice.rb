@@ -23,3 +23,5 @@ def kesha_maker(arr)
   arr.map {|w| w[2] = "$"}
   arr
 end 
+
+def 
