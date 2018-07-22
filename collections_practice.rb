@@ -36,4 +36,6 @@ def add_s(arr)
   arr.map! do |w| 
     w != arr[2] 
       w << "s"
+    end 
+  end 
 end 
