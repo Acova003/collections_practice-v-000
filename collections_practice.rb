@@ -29,5 +29,6 @@ def find_a(arr)
 end 
 
 def sum_array(nums)
-  nums.map {|a, b| a + b}
+  sum = 0
+  nums.inject(0) {|a, b| a + b}
 end 
