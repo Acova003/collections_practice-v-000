@@ -40,4 +40,5 @@ def add_s(arr)
     else 
       w 
     end
+  end 
 end 
