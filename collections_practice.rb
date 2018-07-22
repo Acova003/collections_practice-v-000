@@ -35,7 +35,7 @@ end
 def add_s(arr)
   ignore = arr[2]
   arr.map |w| 
-    unless ignore.include?("w") 
+    unless ignore.include?(w) 
       w << "s"}
     else 
       w 
