@@ -18,3 +18,7 @@ end
 def reverse_array(integers)
   integers.reverse!
 end 
+
+def kesha_maker(arr)
+  arr.each {|w| arr[2] == "$"
+end 
