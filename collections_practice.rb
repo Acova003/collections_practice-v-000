@@ -35,4 +35,5 @@ end
 def add_s(arr)
   arr.map! {|w| w << "s"}
   arr = arr[2].pop
+  arr
 end 
