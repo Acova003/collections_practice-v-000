@@ -20,6 +20,6 @@ def reverse_array(integers)
 end 
 
 def kesha_maker(arr)
-  arr.each {|w| w[2] == "$"}
+  arr.each {|w| w[2].chr == "$"}
   arr
 end 
