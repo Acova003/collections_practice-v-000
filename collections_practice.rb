@@ -31,3 +31,6 @@ end
 def sum_array(nums)
   nums.inject(0) {|a, b| a + b}
 end 
+
+def add_s(arr)
+end 
