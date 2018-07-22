@@ -33,9 +33,7 @@ def sum_array(nums)
 end 
 
 def add_s(arr)
-  ignore = arr[2]
-  arr.map |w| 
-    unless ignore.include?(w) 
+  arr.map.with_index |w| 
       w << "s"}
     else 
       w 
