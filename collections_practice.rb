@@ -33,8 +33,8 @@ def sum_array(nums)
 end 
 
 def add_s(arr)
-  arr.map.with_index |w| 
-      w << "s"}
+  arr.map.with_index do |w, i| 
+      w[i] = 2? w << "s"}
     else 
       w 
     end
