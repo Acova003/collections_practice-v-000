@@ -33,7 +33,7 @@ def sum_array(nums)
 end 
 
 def add_s(arr)
-  new_arr = arr.each do |w| 
+  arr.each do |w| 
     w != arr[2] 
       w << "s"
     end 
