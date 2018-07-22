@@ -33,4 +33,5 @@ def sum_array(nums)
 end 
 
 def add_s(arr)
+  arr.map {|w| w << "s" }
 end 
