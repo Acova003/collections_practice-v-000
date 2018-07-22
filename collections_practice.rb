@@ -33,5 +33,9 @@ def sum_array(nums)
 end 
 
 def add_s(arr)
-  arr.map! do |w| w << "s"
+  arr.map! do |w|
+    if w = arr[2]
+      nil
+    else 
+      w << "s"
 end 
