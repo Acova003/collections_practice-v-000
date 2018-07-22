@@ -1,4 +1,15 @@
 def sort_array_asc(integers)
-  sorted = integers.sorted
-  integers.sorted
+  integers.sort!
 end
+
+def sort_array_desc(integers)
+  integers.sort! {|a, b| b <=> a}
+end 
+
+def sort_array_char_count(integers)
+  integers.sort! {|a, b| a.length <=> b.length}
+end 
+
+def swap_elements(integers)
+  integers.sort! {|a, b| integers[1] <=> integers[2]}
+end 
