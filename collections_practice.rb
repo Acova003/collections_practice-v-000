@@ -29,5 +29,5 @@ def find_a(arr)
 end 
 
 def sum_array(nums)
-  
+  sum(nums)
 end 
