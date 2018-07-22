@@ -37,4 +37,7 @@ def add_s(arr)
   arr.map |w| 
     unless ignore.include?  w 
       w << "s"}
+    else 
+      w 
+    end
 end 
